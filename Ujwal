@@ -1,0 +1,63 @@
+</head>
+<body>
+  <h1>ujjwal</h1>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>environment</th>
+        <th>after</th>
+        <th>before</th>
+        <th>reuse</th>
+        <th>recycle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td>Art</td>
+        <td>English</td>
+   
+. table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10px;
+}
+th {
+  font-size: 12px;
+  font-weight: normal;
+  color: #039;
+  padding: 10px 8px;
+}
+td {
+  color: #669;
+  padding: 8px;
+}
+tbody tr:nth-child(odd) {
+  background: #e8edff;
+}
+<script src="app/bower_components/brick/dist/platform/platform.js"></script>
+<link rel="import" href="app/bower_components/
+<brick-deck id="plan-group" selected-index="0">
+  <brick-card selected>
+    <table>
+      <!-- recycle-->
+    </table>
+  </awareness>
+  <next page>
+    <table>
+      <!-- ujwal -->
+    </table>
+  </environment >
+</environment >
+html, body {height: 100%}
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></
+onDeviceReady: function() {
+    app.planGroup = document.getElementById('plan-group');
+    app.planGroup.loop = true;
+    app.planGroup.addEventListener('touchstart', app.nextPlan);
+},
+nextPlan: function() {
+    app.planGroup.nextCard();
+}
